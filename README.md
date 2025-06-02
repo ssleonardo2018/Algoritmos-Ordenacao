@@ -1,5 +1,4 @@
-ALUNO: Leonardo S Silva
-MAT. : 202422983
+ALUNO: Leonardo S Silva | MAT. : 202422983
 
 # 📊 Algoritmos de Ordenação em Python
 
