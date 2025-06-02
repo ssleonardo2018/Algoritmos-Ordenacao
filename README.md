@@ -1,3 +1,6 @@
+ALUNO: Leonardo S Silva
+MAT. : 202422983
+
 # 📊 Algoritmos de Ordenação em Python
 
 Este repositório contém implementações em **Python** de diversos **algoritmos de ordenação** clássicos, cada um com seus comentários explicando **vantagens** e **desvantagens**. O objetivo é fornecer um material simples e didático para quem deseja entender como esses algoritmos funcionam internamente.
