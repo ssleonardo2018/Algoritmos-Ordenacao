@@ -134,6 +134,10 @@ Pode ser difícil ajustar para distribuições irregulares.
 Nem sempre é mais rápido que os outros.
 
 
+
+
+
+
 Cada algoritmo está disponível em um arquivo individual. Clique nos links abaixo para ver o código-fonte:
 
 | Algoritmo             | Arquivo                    | Complexidade Média | Estável | In-place |
