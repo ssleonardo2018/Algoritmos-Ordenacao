@@ -24,6 +24,8 @@ Não precisa de memória extra.
 
 Lento para listas grandes.
 Complexidade: O(n²) (bem lento com muitos dados).
+
+
 🔷 2. Bubble Sort (Ordenação por Bolha)
 Como funciona:
 Compara dois números vizinhos e troca se estiverem na ordem errada. Vai fazendo isso até a lista estar ordenada. Como bolhas subindo à superfície, os maiores "flutuam" para o fim.
@@ -36,6 +38,8 @@ Muito fácil de entender.
 
 Extremamente lento para listas grandes.
 Complexidade: O(n²).
+
+
 🔷 3. Insertion Sort (Ordenação por Inserção)
 Como funciona:
 Imagina que você está organizando cartas na mão. Pega uma carta de cada vez e insere na posição certa entre as já organizadas.
@@ -48,6 +52,8 @@ Fácil de implementar.
 
 Também lento com listas grandes.
 Complexidade: O(n²).
+
+
 🔷 4. Merge Sort (Ordenação por Mistura)
 Como funciona:
 Divide a lista em várias partes pequenas, ordena cada parte e depois junta tudo em ordem. Como montar um quebra-cabeça de pedaços já organizados.
@@ -60,6 +66,8 @@ Estável (não muda a ordem de valores iguais).
 ❌ Desvantagens:
 
 Usa memória extra (mais espaço na máquina).
+
+
 🔷 5. Quick Sort (Ordenação Rápida)
 Como funciona:
 Escolhe um número como referência (chamado de "pivô") e divide a lista em menores, iguais e maiores que ele. Depois faz o mesmo com cada parte.
@@ -72,6 +80,8 @@ Complexidade média: O(n log n).
 
 Pode ser lento no pior caso (O(n²)).
 Instável (pode trocar a ordem de elementos iguais).
+
+
 🔷 6. Heap Sort
 Como funciona:
 Transforma a lista em uma estrutura chamada “heap” (tipo uma árvore de prioridades), e vai retirando os maiores ou menores elementos para ordenar.
@@ -83,6 +93,8 @@ Não usa memória extra.
 ❌ Desvantagens:
 
 Não mantém a ordem de valores iguais (instável).
+
+
 🔷 7. Counting Sort (Ordenação por Contagem)
 Como funciona:
 Conta quantas vezes cada número aparece e monta a lista final com base nessas contagens.
@@ -94,6 +106,8 @@ Super rápido para listas de números inteiros pequenos.
 
 Não funciona com números negativos.
 Ineficiente se os números forem muito grandes ou variados.
+
+
 🔷 8. Radix Sort
 Como funciona:
 Ordena os números dígito por dígito (começando pelas unidades, depois dezenas, centenas...). Usa uma técnica parecida com o Counting Sort em cada passo.
@@ -105,6 +119,8 @@ Muito rápido para inteiros grandes com número fixo de dígitos.
 
 Só funciona com inteiros.
 Não funciona bem com números negativos ou decimais.
+
+
 🔷 9. Bucket Sort
 Como funciona:
 Divide os dados em "baldes" (grupos), coloca os valores parecidos juntos, ordena cada balde separadamente (normalmente com Insertion Sort), e junta tudo no fim.
