@@ -20,6 +20,7 @@ Para a lista [5, 3, 8, 6, 2], o algoritmo vai trocando o menor número com o pri
 
 Simples de entender e implementar.
 Não precisa de memória extra.
+
 ❌ Desvantagens:
 
 Lento para listas grandes.
@@ -34,6 +35,7 @@ Compara dois números vizinhos e troca se estiverem na ordem errada. Vai fazendo
 
 Muito fácil de entender.
 Ótimo para ensinar lógica de comparação e troca.
+
 ❌ Desvantagens:
 
 Extremamente lento para listas grandes.
@@ -48,6 +50,7 @@ Imagina que você está organizando cartas na mão. Pega uma carta de cada vez e
 
 Funciona muito bem com listas pequenas ou quase ordenadas.
 Fácil de implementar.
+
 ❌ Desvantagens:
 
 Também lento com listas grandes.
@@ -63,6 +66,7 @@ Divide a lista em várias partes pequenas, ordena cada parte e depois junta tudo
 Muito eficiente com listas grandes.
 Complexidade: O(n log n).
 Estável (não muda a ordem de valores iguais).
+
 ❌ Desvantagens:
 
 Usa memória extra (mais espaço na máquina).
@@ -76,6 +80,7 @@ Escolhe um número como referência (chamado de "pivô") e divide a lista em men
 
 Muito rápido na prática.
 Complexidade média: O(n log n).
+
 ❌ Desvantagens:
 
 Pode ser lento no pior caso (O(n²)).
@@ -90,6 +95,7 @@ Transforma a lista em uma estrutura chamada “heap” (tipo uma árvore de prio
 
 Sempre tem bom desempenho: O(n log n).
 Não usa memória extra.
+
 ❌ Desvantagens:
 
 Não mantém a ordem de valores iguais (instável).
@@ -102,6 +108,7 @@ Conta quantas vezes cada número aparece e monta a lista final com base nessas c
 ✅ Vantagens:
 
 Super rápido para listas de números inteiros pequenos.
+
 ❌ Desvantagens:
 
 Não funciona com números negativos.
@@ -115,6 +122,7 @@ Ordena os números dígito por dígito (começando pelas unidades, depois dezena
 ✅ Vantagens:
 
 Muito rápido para inteiros grandes com número fixo de dígitos.
+
 ❌ Desvantagens:
 
 Só funciona com inteiros.
@@ -128,6 +136,7 @@ Divide os dados em "baldes" (grupos), coloca os valores parecidos juntos, ordena
 ✅ Vantagens:
 
 Muito eficiente quando os números estão bem distribuídos.
+
 ❌ Desvantagens:
 
 Pode ser difícil ajustar para distribuições irregulares.
